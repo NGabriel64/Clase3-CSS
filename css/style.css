@@ -1,0 +1,29 @@
+header{
+    background-color: black;color: aquamarine;
+}
+
+.titulo{
+    letter-spacing: 0.5rem;
+    font-size: 4rem;/* Tamaño de fuente */
+    text-align: center;/* Alineado de texto */
+}
+
+.parrafos{
+    font-size: large;
+}
+
+.parrafos p:nth-child(2){
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* Familia de tipografía  */
+    font-weight: bold;/* Peso o grosor de la fuente */
+    font-style: inherit;/* Estilo de la fuente */
+}
+.parrafos p:nth-child(3){
+    color: rgb(255, 0, 0);
+    word-spacing: 1rem;/* Espaciado entre palabras */
+    line-height: 2rem;/* Espaciado entre líneas */
+
+}
+
+
+
